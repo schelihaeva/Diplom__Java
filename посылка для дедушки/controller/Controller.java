@@ -23,7 +23,7 @@ public class Controller {
             "Ввведите свой выбор: ";
     private GetChoice getChoice;
     public Controller() {
-        basket = new ProductKit(new LoadProductFromFile("project/input.txt").getRawProduct());
+        basket = new ProductKit(new LoadProductFromFile("посылка для дедушки/project/input.txt").getRawProduct());
         kit = basket;
     }
 
